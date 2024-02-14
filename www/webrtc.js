@@ -3,8 +3,8 @@
 "use strict";
 
 const ICE_SERVERS = [
-	{ urls: "stun:stun.l.google.com:19302" },
-	{ urls: "turn:openrelay.metered.ca:443", username: "openrelayproject", credential: "openrelayproject" },
+	{ urls: "stun:turn01.brie.fi:5349" },
+	{ urls: "turn:turn01.brie.fi:5349?transport=tcp", username: "brie", credential: "(fi)" }, /* (fi) for debug by me, original is fi */
 ];
 
 const APP_URL = (() => {
