@@ -4,7 +4,7 @@
 
 const ICE_SERVERS = [
 	{ urls: "stun:turn01.brie.fi:5349" },
-	{ urls: "turn:turn01.brie.fi:5349?transport=tcp", username: "brie", credential: "(fi)" }, /* (fi) for debug by me, original is fi */
+	{ urls: "turn:turn01.brie.fi:5349?transport=tcp", username: "brie", credential: "fi" }, /* (fi) for debug by me, original is fi */
 ];
 
 const APP_URL = (() => {
